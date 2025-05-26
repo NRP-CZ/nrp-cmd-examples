@@ -1,0 +1,18 @@
+[project]
+name = "nrp-examples"
+version = "0.1.0"
+description = "Add your description here"
+readme = "README.md"
+authors = [
+    { name = "Mirek Simek", email = "miroslav.simek@gmail.com" }
+]
+requires-python = ">=3.13"
+dependencies = [
+    "jupyter>=1.1.1",
+    "nrp-cmd"
+]
+
+
+[build-system]
+requires = ["hatchling"]
+build-backend = "hatchling.build"

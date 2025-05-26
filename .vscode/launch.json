@@ -1,0 +1,16 @@
+{
+    "version": "0.2.0",
+    "configurations": [
+        {
+            "name": "Debug current file",
+            "type": "debugpy",
+            "request": "launch",
+            "program": "${file}",
+            "console": "integratedTerminal",
+            "justMyCode": false,
+            "env": {
+                "NRP_TOKEN": "SV3P0kCCD8VXhoJhKIfs1IHakXLu0GnwNG7Lq3yGCmVYWmTMnuV3xH2DRpEg"
+            }
+        }
+    ]
+}
