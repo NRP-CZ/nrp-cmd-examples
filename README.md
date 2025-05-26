@@ -18,7 +18,11 @@ See [Jupyter notebooks](./src/nrp_examples/jupyter/) for examples of how to use 
 
 ### Installation
 
+#### Preferred way
+
 Download [`https://raw.githubusercontent.com/NRP-CZ/nrp-cmd/refs/heads/main/nrp-cmd`](https://raw.githubusercontent.com/NRP-CZ/nrp-cmd/refs/heads/main/nrp-cmd), make it executable and place it in your path.
+
+#### Virtualenv way
 
 Alternatively, you can create a virtualenv and install it there:
 
@@ -28,6 +32,8 @@ source .venv/bin/activate
 pip install -U setuptools pip wheel
 pip install nrp-cmd
 ```
+
+**Note:** Using the preferred way is recommended, as it will always use the latest version of the client.
 
 ## Adding a repository
 
